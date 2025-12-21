@@ -1,2 +1,3 @@
 # Paint-chaos
-tee shop front end.
+tee shop front end. Sample project
+
