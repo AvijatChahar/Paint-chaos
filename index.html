@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint & Chaos | Creative Shop</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nothing+You+Could+Do&family=Oswald:wght@500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-logo">PAINT<span>&</span>CHAOS</div>
+        <ul class="nav-links">
+            <li><a href="#work">WORK</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li>
+                <div
+                    style="background:var(--text-color); color:var(--bg-color); width: 40px; height: 40px; border-radius: 50%; display:flex; justify-content:center; align-items:center; font-size:1.2rem;">
+                    🛒
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-tagline">↓ Hey you! Yes, you! ↓</span>
+            <h1>ART THAT<br><span style="color:var(--accent-pink)">REFUSES</span><br>TO BE BORING</h1>
+            <p>Welcome to Paint & Chaos — where every print is a tiny rebellion against the mundane. Tees, posters,
+                stickers & more for creative misfits.</p>
+            <div style="display:flex; gap: 20px;">
+                <a href="#work" class="btn" style="background: black;">Shop The Chaos →</a>
+                <a href="#about" class="btn btn-secondary">Our Story</a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="hero-image-container">
+                <img src="assets/hero_collage_1766314243875.png" alt="Featured Art Collage">
+            </div>
+            <!-- Arrow Doodle decorative element -->
+            <div
+                style="position:absolute; top: 10%; right: 50px; font-family: 'Nothing You Could Do', cursive; font-size: 2rem; transform: rotate(10deg);">
+                New Drops! ↝
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee-container">
+        <div class="marquee-content">
+            <!-- Duplicated content for seamless loop -->
+            <span>STAY CHAOTIC</span> • <span>PRINT IS NOT DEAD</span> • <span>REBEL WITH A CAUSE</span> • <span>BUY ART
+                OR BE BORING</span> • <span>PAINT & CHAOS</span> • <span>STAY CHAOTIC</span> • <span>PRINT IS NOT
+                DEAD</span> • <span>REBEL WITH A CAUSE</span> • <span>BUY ART OR BE BORING</span> • <span>PAINT &
+                CHAOS</span>
+        </div>
+    </div>
+
+    <!-- Work/Grid Section -->
+    <section id="work" class="section-padding container">
+        <h2 style="font-size: 3rem; margin-bottom: 40px; text-align:center;">FRESH PRINTS</h2>
+
+        <div class="work-grid">
+            <!-- Item 1 -->
+            <div class="work-card">
+                <div class="work-image">
+                    <img src="assets/retro_cat_tee_1766314265429.png" alt="Retro Cat Art">
+                </div>
+                <div class="work-info">
+                    <span class="work-category">Best Seller</span>
+                    <h3 class="work-title">Retro Cat Tee</h3>
+                    <p>$25.00</p>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="work-card">
+                <div class="work-image">
+                    <img src="assets/skull_print_1766314288148.png" alt="Skull Art">
+                </div>
+                <div class="work-info">
+                    <span class="work-category" style="background: var(--accent-cyan);">New</span>
+                    <h3 class="work-title">Skull Candy Print</h3>
+                    <p>$15.00</p>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="work-card">
+                <div class="work-image">
+                    <img src="assets/alien_sticker_1766314312169.png" alt="Alien Art">
+                </div>
+                <div class="work-info">
+                    <span class="work-category" style="background: var(--accent-orange);">Limited</span>
+                    <h3 class="work-title">Alien Juice Sticker</h3>
+                    <p>$5.00</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 50px;">
+            <a href="#" class="btn">View All Products</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="about-box">
+                <h2>Why So Serious?</h2>
+                <p style="margin-top: 20px; font-size: 1.1rem;">
+                    We believe art should smack you in the face (metaphorically). Founded in a messy bedroom, Paint &
+                    Chaos is a middle finger to beige walls and boring wardrobes. We make stuff for people who like it
+                    loud.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <h2 style="font-size: 4rem; color: var(--accent-pink); margin-bottom: 20px;">LET'S GET WEIRD</h2>
+            <div class="footer-socials">
+                <a href="instagram.com">IG</a>
+                <a href="x.com">X</a>
+                <a href="youtube.com">YT</a>
+            </div>
+            <p>&copy; 2024 Paint & Chaos. No rights reserved. Do not steal our vibes.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
